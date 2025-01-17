@@ -22,7 +22,7 @@ dependencies = [
 ]
 
 [project.scripts]
-loggoblin = "loggoblin.__main__:main"
+loggob = "loggoblin.__main__:main"
 
 [tool.ruff]
 target-version = "py310"

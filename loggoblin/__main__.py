@@ -1,2 +1,5 @@
-def main():
-    print("hello world")
+from . import cli
+
+
+def main() -> None:
+    cli.main()
