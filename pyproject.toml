@@ -26,12 +26,13 @@ loggob = "loggoblin.__main__:main"
 
 [tool.ruff]
 target-version = "py310"
-select = ["ALL"]
-ignore = [
+lint.select = ["ALL"]
+lint.ignore = [
     "COM812",  # Missing trailing comma
     "D100",  # Missing docstring in public module
     "D104",  # Missing docstring in public package
     "D103",  # Missing docstring in public function
+    "D", # docstring
     "E501",  # Line too long
     "FBT001",  # Boolean-typed positional argument in function definition
     "ISC001",  # Single-line implicit string concatenation
